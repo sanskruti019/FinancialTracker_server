@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./src/index.cjs",
+    "build": "tsc -p .",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/mongoose": "^5.11.96",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3",
+    "nodemon": "^3.1.7",
+    "ts": "^0.2.2",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "cors": "^2.8.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^3.9.10"
+  }
+}
